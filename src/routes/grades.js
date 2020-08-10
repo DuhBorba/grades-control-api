@@ -147,7 +147,7 @@ router.get('/:student/:subject', async (req, res, next) => {
 
     const dataMaped = data.grades.map((grade) => grade.value);
 
-    const resultReduce = dataMaped.reduce((acc, cur) => acc + cur);
+    const resultReduce = dataMaped.reduce((acc, cur) => acc + cur, 0);
 
     res.send(`
     A soma das notas deste aluno nesta disciplina é ${resultReduce}`);
