@@ -1,7 +1,5 @@
 # grades-control-api
 
-<!-- ![Imagem do projeto](https://github.com/DuhBorba/cities-states-brazil-json/blob/master/demo.png) -->
-
 ## Sobre este projeto
 Esse foi o desafio final do módulo 2 do Bootcamp Full Stack do [IGTI - Instituto de Gestão e Tecnologia da Informação](https://www.igti.com.br/), foi preciso desenvolver uma API, criando endpoints utilizando NodeJS e Express, para manipulação de notas de alunos, criando, atualizando, deletando e consultando através das requisições. Utilizei também a biblioteca Winston para a gravação de logs. 
 
@@ -50,7 +48,8 @@ Para o desenvolvimento foi necessário:
 * Utilização de funções assíncronas através do async/await
 * Utilização do try/catch
 * Desenvolver endpoints
-* Fazer gravação de logs
+* Gravação de logs
+* Validar campos
 
 
 ## Construído com
@@ -59,6 +58,29 @@ Para o desenvolvimento foi necessário:
 * Node.js
 * Express - Framework para Node.js
 * [Prettier](https://prettier.io/) - Formatador de código
+
+## Resultado
+
+### Criação
+![GIF do POST](https://github.com/DuhBorba/grades-control-api/blob/master/demo-POST.gif)
+
+### Atualização
+![GIF do PUT](https://github.com/DuhBorba/grades-control-api/blob/master/demo-PUT.gif)
+
+### Deleção
+![GIF do DELETE](https://github.com/DuhBorba/grades-control-api/blob/master/demo-DELETE.gif)
+
+### Consulta por ID
+![GIF do GET id](https://github.com/DuhBorba/grades-control-api/blob/master/demo-GET-id.gif)
+
+### Consulta a nota total do aluno de determinada matéria
+![GIF do GET total](https://github.com/DuhBorba/grades-control-api/blob/master/demo-GET-total.gif)
+
+### Consulta a média de determinada matéria e tipo
+![GIF do GET average](https://github.com/DuhBorba/grades-control-api/blob/master/demo-GET-average.gif)
+
+### Consulta os 3 melhores grades de determinada matéria e tipo
+![GIF do GET top 3](https://github.com/DuhBorba/grades-control-api/blob/master/demo-GET-top3.gif)
 
 ## Autores
 
