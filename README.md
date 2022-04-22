@@ -67,7 +67,7 @@ Para o desenvolvimento foi necessário:
 ### Atualização
 ![GIF do PUT](https://github.com/DuhBorba/grades-control-api/blob/master/demo-PUT.gif)
 
-### Deleção
+### Exclusão
 ![GIF do DELETE](https://github.com/DuhBorba/grades-control-api/blob/master/demo-DELETE.gif)
 
 ### Consulta por ID
